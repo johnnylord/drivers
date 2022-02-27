@@ -1,6 +1,6 @@
 TOPTARGETS := all clean
 
-SUBDIRS := $(wildcard *-*/.)
+SUBDIRS := $(wildcard lessons/*-*/.)
 
 $(TOPTARGETS): $(SUBDIRS)
 
